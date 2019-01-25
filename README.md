@@ -8,7 +8,7 @@ I spent some time building an environment via their tutorial and successfully im
 
 To display the API status, I am using httpie to call the URL, also from the chalice github page.
 ```
-http https://api.nytimes.com/svc/topstories/v2/science.json?api-key=your-key
+http https://qry8erv4k0.execute-api.us-west-2.amazonaws.com/api/
 ```
 This will return the details of the API (including date, content-type, server, etc.) before displaying the actual results of the API.
 
