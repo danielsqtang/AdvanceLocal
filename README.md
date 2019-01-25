@@ -19,7 +19,7 @@ The question that I wanted to answer was What is the most popular news articles 
 
 So I made an account on https://newsapi.org for an api code.
 And using jupyternotebook to test python code, I am able to query successfully.
-My next step would be to port the python code into Chalice which I have not spent time on. 
+Next steps would be porting the working code into Chalice
 
 3) Upload PNG image to S3
 The first thing I thought when reading this, is that this code challenge wants me to create a website?! 
