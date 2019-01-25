@@ -1,2 +1,3 @@
-[default]
-region = us-west-2
+aws_access_key_id=AKIAIAER4Z4AR3PFNLFA
+aws_secret_access_key=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
+region=us-west-2
