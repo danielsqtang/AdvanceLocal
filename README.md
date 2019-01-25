@@ -4,7 +4,8 @@ To start off, the overall goal is to get familiar with Chalice,
 https://github.com/awslabs/chalice
 I spent some time building an environment via their tutorial and successfully implemented Chalice.
 
-1) API status:\
+1) API status:
+
 To display the API status, I am using httpie to call the URL, also from the chalice github page.
 ```
 http https://api.nytimes.com/svc/topstories/v2/science.json?api-key=your-key
