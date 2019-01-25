@@ -3,7 +3,7 @@ import boto3
 
 app = Chalice(app_name='helloworld')
 
-BUCKET = 'advancelocal'  # bucket name
+bucket_name = 'advancelocal'
 s3_client = boto3.client('s3')
 
 @app.route('/upload/{file_name}', methods=['PUT'],
@@ -19,7 +19,7 @@ def upload_to_s3(file_name):
         tmp_file.write(body)
 
     # upload tmp file to s3 bucket
-    s3_client.upload_file(tmp_file_name, BUCKET, file_name) 
+    s3_client.upload_file(tmp_file_name, bucket_name, file_name) 
 
     return Response(body='upload successful: {}'.format(file_name),
                     status_code=200,
