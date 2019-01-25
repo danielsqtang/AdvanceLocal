@@ -35,4 +35,7 @@ https://s3.us-east-2.amazonaws.com/advancelocal/png/tree.png
 ```
 When trying to upload via chalice, I began testing python code but ran into a security token issue. After a brief dive into the security issue, I find that it is a known bug but could not find an immediate solution. I was unable to test the uploading of png.
 
+Overall, the security issues and authentication with Chalice was an obstacle, and I would seek advice here.
+Otherwise, I would try the whole process on a clean slate, and try to recreate the error.
+
 Daniel Tang
