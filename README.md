@@ -21,7 +21,8 @@ The question that I wanted to answer was What is the most popular news articles 
 
 So I made an account on https://newsapi.org for an api code.
 And using jupyternotebook to test python code, I am able to query successfully.
-Next steps would be porting the working code into Chalice
+Next steps would be porting the working code into Chalice. 
+I was running into security issues with Chalice and was unable to test via Chalice.
 
 3) Upload PNG image to S3
 
@@ -32,6 +33,6 @@ Here is the link
 ```
 https://s3.us-east-2.amazonaws.com/advancelocal/png/tree.png
 ```
-Unfortunately, it only has a tree, and if I were have it in a webpage the img src would be the mentioned link.
+When trying to upload via chalice, I began testing python code but ran into a security token issue. After a brief dive into the security issue, I find that it is a known bug but could not find an immediate solution. I was unable to test the uploading of png.
 
 Daniel Tang
