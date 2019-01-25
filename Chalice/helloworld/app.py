@@ -19,7 +19,7 @@ def upload_to_s3(file_name):
         tmp_file.write(body)
 
     # upload tmp file to s3 bucket
-    s3_client.upload_file(tmp_file_name, advancelocal, file_name) #bucket name is advancelocal
+    s3_client.upload_file(tmp_file_name, BUCKET, file_name) 
 
     return Response(body='upload successful: {}'.format(file_name),
                     status_code=200,
