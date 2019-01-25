@@ -1,4 +1,4 @@
-# AdvanceLocal excercise
+# AdvanceLocal exercise
 
 To start off, the overall goal is to get familiar with Chalice,
 https://github.com/awslabs/chalice
