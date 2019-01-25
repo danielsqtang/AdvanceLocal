@@ -18,8 +18,8 @@ One of the first questions I wanted to ask, are we constricted to using Chalice 
 The question that I wanted to answer was What is the most popular news articles that contain a keyword (i.e. Tesla) for a given date.
 
 So I made an account on https://newsapi.org for an api code.
-And using jupyternotebook with python code
-
+And using jupyternotebook to test python code, I am able to query successfully.
+My next step would be to port the python code into Chalice which I have not spent time on. 
 
 3) Upload PNG image to S3
 The first thing I thought when reading this, is that this code challenge wants me to create a website?! 
@@ -30,4 +30,3 @@ Here is the link
 https://s3.us-east-2.amazonaws.com/advancelocal/png/tree.png
 ```
 Unfortunately, it only has a tree, and if I were have it in a webpage the img src would be the mentioned link.
-
